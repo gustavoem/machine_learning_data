@@ -8,7 +8,7 @@ use strict;
 
 # Usage: $0 < iris.data > Test_01_A.dat
 #
-# Gustavo Estrela, July 8st, 2017.
+# Gustavo Estrela, July 8th, 2017.
 
 # Variables are discretized in four quartiles
 

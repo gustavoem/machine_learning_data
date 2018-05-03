@@ -42,8 +42,8 @@ n = args.n
 k = args.k
 m = args.m
 
+relevant_features = choose_relevant_features (n, k)
 for i in range (m):
-    relevant_features = choose_relevant_features (n, k)
     feat_list = random_feature_list (n)
     parity = get_parity (feat_list, relevant_features)
     
@@ -53,5 +53,3 @@ for i in range (m):
         print (' 0 1')
     else:
         print (' 1 0')
-
-
