@@ -88,7 +88,7 @@ foreach my $k (0..($m-1))
   }
 
   print " ";
-  foreach my $current_label (0..2)
+  foreach my $current_label (0..1)
   {
     ($current_label == $sample[$k]->[$n]) and print "1 " or print "0 ";
   }
